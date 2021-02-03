@@ -1,0 +1,32 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-variant: normal;
+  width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  border:solid 10px;
+  border-color: #416B46;
+  background-color: #F6ECE4;
+  padding: 20px;
+  border-radius: 275px 45px 285px 35px/65px 235px 45px 255px;
+  padding: 15px;
+  line-height: 18px;
+
+}
+
+
+h2, h3{
+   font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
+    font-variant: Small-caps;
+    font-weight: 700;
+    line-height: 35px;
+    color: #964444;
+}
+
+img {
+  border-radius: 70px;
+}
