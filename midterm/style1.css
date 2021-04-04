@@ -11,6 +11,20 @@ header{
   padding: 1em;
 }
 
+header button{
+  background-color: #595853;
+  background-image: url("images/playbutton.png");
+  background-repeat: no-repeat;
+  background-position:left center;
+  color: #FFFFFF;
+  padding: 5px;
+  padding-left: 25px;
+  border: none;
+  text-transform: uppercase;
+
+}
+
+
 p1{
 margin-bottom: 1em;
 margin-top: 1em;
