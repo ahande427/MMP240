@@ -4,7 +4,6 @@
   display:flex;
   flex-direction:row;
   flex-wrap: wrap;
-
 }
 
 .box{
@@ -19,7 +18,6 @@
       margin-right: auto;
       width: 280px;
       height: 180px;
-
   }
 
 .box1{
