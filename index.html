@@ -25,15 +25,13 @@
 
     <h3>Assignments:</h3>
 
-  <ul style="list-style-type:none;">
+  <ul class="menu">
+    <li class="dropdown-link"><a href="#">Class Work & Assignments</a>
+      <ul class="dropdown-menu">
     <li><a href="recipe/greekspinachpie.html">Recipe Assignments</a></li>
-
     <li><a href="exercise2/exercise2.html">Practice 2(LinkingFiles)</a></li>
-
     <li><a href="exercise3/exercise3.html">Practice 3(Css BoxModel)</a></li>
-
     <li><a href="midterm/index.html">Midterm-TV Show Website</a></li>
-
     <li><a href="quiz1/quiz1.html">Quiz 1</a></li>
     <li><a href="exercise4/exercise4.html">Practice 4(CSS Background)</a></li>
     <li><a href="exercise5/exercise5.html">Practice 5(Styling Links)</a></li>
@@ -42,8 +40,9 @@
     <li><a href="exercise8/exercise8.html">Practice 8(media queries)</a></li>
     <li><a href="exercise9/exercise9.html">Practice 9(grid layout)</a></li>
     <li><a href="exercise10/exercise10.html">Practice 10(dropdown menus)</a></li>
+    <li><a href="quiz3/quiz3.html">Quiz 3</a></li>
+    </li>
   </ul>
-<br>
 </div>
 </body>
 </html>
@@ -62,7 +61,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  text
 }
 div{
   background-color: #FFFFFF;
@@ -71,4 +69,32 @@ div{
 img {
   border-radius: 40%;
 }
+
+.dropdown-menu{
+  display:none;
+}
+
+.dropdown-link:hover ul{
+  display:block;
+}
+
+.menu li{
+  border-bottom: solid 2px #FFF;
+  list-style-type: none;
+  background-color: #FFF;
+}
+
+.dropdown-link a{
+  color: #000000;
+  text-decoration:none;
+  display:block;
+  position: center;
+}
+
+.dropdown-menu li{
+  background-color: #cae8e0;
+  position: center;
+}
+
+
 </style>
