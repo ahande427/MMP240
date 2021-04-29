@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>exercise10</title>
+<style>
+  .dropdown-menu{
+    display:none;
+  }
+
+  .dropdown-link:hover ul{
+    display:block;
+  }
+
+  .menu li{
+    border-bottom: solid 2px #808080;
+    list-style-type: none;
+    background-color: #b0f5e3;
+  }
+
+  .dropdown-link img{
+    float: right;
+    width: 15px;
+  }
+
+  .dropdown-link a{
+    color: #000000;
+    text-decoration:none;
+    display:block;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+
+  .dropdown-menu li{
+    background-color: #cae8e0;
+  }
+
+</style>
+
+
+
+</head>
+<body>
+  <ul class="menu">
+<li class="dropdown-link"><a href="#">Fruits<img src="https://img.icons8.com/ios-filled/26/000000/chevron-down.png"></a>
+    <ul class="dropdown-menu">
+      <li><a href="#">Apples</a></li>
+      <li><a href="#">Bananas</a></li>
+      <li><a href="#">Grapes</a></li>
+      </ul>
+    </li>
+    <li class="dropdown-link"><a href="#">Vegetables<img src="https://img.icons8.com/ios-filled/26/000000/chevron-down.png"></a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Tomatoes</a></li>
+        <li><a href="#">String Beans</a></li>
+        <li><a href="#">Carrots</a></li>
+      </ul>
+    </li>
+  </ul>
+</body>
+</html>
